@@ -1,4 +1,3 @@
-import logo from "./logo.svg";
 import "./App.css";
 import Dictionary from "./Dictionary";
 
@@ -6,18 +5,23 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <h1>Dictionary</h1>
         <p>
+          What word are you looking for?
+          <br />
           <Dictionary />
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <footer>
+          <a
+            className="App-link"
+            href="https://github.com/angelajazz/dictionary-app"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Open-Source Code
+          </a>{" "}
+          by Angela Jazz
+        </footer>
       </header>
     </div>
   );
