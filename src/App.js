@@ -9,7 +9,7 @@ function App() {
         <p>
           What word are you looking for?
           <br />
-          <Dictionary />
+          <Dictionary defaultKeyword="Wine" />
         </p>
         <footer>
           <a
